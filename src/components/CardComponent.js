@@ -8,7 +8,7 @@ function CardComponent({item}) {
        <div className='container'>
          <b>UserId: </b>{item.userId}<br></br>
          <b>Title: </b>{item.title}<br></br>
-         <b>Completed : </b>{String(item.completed)}<br></br>
+         <b>TaskCompleted : </b>{String(item.completed)}<br></br>
         </div>
     </div>
   )
